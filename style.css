@@ -94,7 +94,9 @@ input {
   color: rgba(236, 234, 234, 0.8);
   font-size: 20px;
   text-decoration: none;
+  font-weight: bolder;
 }
+
 
 #links-container>a:is(:hover, :focus) {
   text-decoration: underline;
@@ -846,7 +848,7 @@ a {
 a:hover {
   color: black !important;
   background: rgba(226, 197, 197, 0.94);
-  font-weight: bolder;
+  transform: scale(1.1);
   text-decoration: none !important;
 }
 
