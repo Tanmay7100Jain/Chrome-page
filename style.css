@@ -100,6 +100,7 @@ input {
 
 #links-container>a:is(:hover, :focus) {
   text-decoration: underline;
+  transform: scale(1.1);
 }
 
 #header-container {
@@ -454,8 +455,8 @@ input {
   font-size: 24px;
 }
 
-.social-button--youtube:focus {
-  background-color: black;
+.social-button--youtube::after {
+  background: rgb(255, 0, 0);
 }
 
 .social-button--mail {
@@ -848,7 +849,6 @@ a {
 a:hover {
   color: black !important;
   background: rgba(226, 197, 197, 0.94);
-  transform: scale(1.1);
   text-decoration: none !important;
 }
 
