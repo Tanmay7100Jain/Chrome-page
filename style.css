@@ -37,6 +37,15 @@ body {
   box-sizing: border-box;
 }
 
+.hover-effect {
+  color: #fa6405;
+
+}
+
+.hover-effect:hover {
+  color: black !important;
+}
+
 h1,
 h2,
 h3,
