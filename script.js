@@ -2,7 +2,7 @@ function googleSearch() {
   var text = document.getElementById("search").value;
   var url = 'http://www.google.com/search?q=' + text;
 
-  window.open(url, '_black')
+   window.open(url ,"_blank")
   document.getElementById("search").value = null
 }
 
@@ -12,3 +12,4 @@ search.addEventListener('keypress', (event) => {
     googleSearch()
   }
 })
+
