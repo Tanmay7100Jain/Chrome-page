@@ -104,6 +104,7 @@ input {
   font-size: 20px;
   text-decoration: none;
   font-weight: bolder;
+  border: 3px solid rgba(236, 234, 234, 0.8);
 }
 
 
@@ -248,48 +249,12 @@ input {
   color: rgb(255 255 255 / 50%);
 }
 
-#apps-container>a:is(:hover, :focus) {
-  background-color: rgb(255 255 255 / 16%);
-}
-
 #apps-container>a:first-child {
   border-top-left-radius: 0.5rem;
 }
 
-.color>a:nth-child(1) {
-  color: rgb(255, 255, 255);
-  border-top-right-radius: 0.5rem;
-}
-
-#apps-container>a:nth-child(2) {
-  color: rgb(112, 165, 151);
-  border-top-right-radius: 0.5rem;
-}
-
-.color2>a:nth-child(3) {
-  color: rgb(28, 204, 91);
-  border-top-right-radius: 0.5rem;
-}
-
-.color>a:nth-child(3) {
-  color: rgb(255, 0, 0);
-}
-
-#apps-container>a:nth-child(4) {
-  color: rgb(28, 147, 228);
-}
-
-#apps-container>a:nth-child(5) {
-  color: rgb(242, 85, 90);
-}
-
 #apps-container>a:nth-child(7) {
   border-bottom-left-radius: 0.5rem;
-}
-
-#apps-container>a:last-child {
-  color: rgb(15, 118, 14);
-  border-bottom-right-radius: 0.5rem;
 }
 
 #discover-container {
@@ -856,7 +821,6 @@ a {
 }
 
 a:hover {
-  color: black !important;
   background: rgba(226, 197, 197, 0.94);
   text-decoration: none !important;
 }
@@ -1213,4 +1177,94 @@ h3.txt-ne {
   background-color: #f2f2f2;
   border: 1px solid #ccc;
   box-sizing: border-box;
+}
+
+
+/* GitLab icon hover color */
+.color2>a:nth-child(1) {
+  color: #a6814c8b;
+  /* GitLab orange */
+}
+
+.color2>a:nth-child(1):hover {
+  color: #fca326;
+  /* GitLab orange */
+}
+
+
+/* Tailwind CSS icon */
+.color>a:nth-child(1) {
+  color: #0ea4e96a;
+  /* Tailwind CSS blue */
+}
+
+.color>a:nth-child(1):hover {
+  color: #0ea5e9;
+  /* Tailwind CSS hover blue */
+}
+
+/* NativeWind icon */
+.color>a:nth-child(2) {
+  color: #3577e29a;
+  /* NativeWind primary blue */
+}
+
+.color>a:nth-child(2):hover {
+  color: #2563eb;
+  /* NativeWind hover blue */
+}
+
+/* ChatGPT icon */
+.color>a:nth-child(3) {
+  color: #10a37ea1;
+  /* ChatGPT green */
+}
+
+.color>a:nth-child(3):hover {
+  color: #04ffcd;
+  /* ChatGPT hover green */
+}
+
+/* TradingView icon */
+.color>a:nth-child(4) {
+  color: #1111118d;
+  /* TradingView blue */
+}
+
+.color>a:nth-child(4):hover {
+  color: #000000;
+  /* TradingView hover blue */
+}
+
+/* React icon */
+.color2>a:nth-child(2) {
+  color: #61dafb;
+  /* React light blue */
+}
+
+.color2>a:nth-child(2):hover {
+  color: #21a1f1;
+  /* React hover blue */
+}
+
+/* Earth (Globe) icon */
+.color2>a:nth-child(3) {
+  color: #4caf4fa8;
+  /* Earth green */
+}
+
+.color2>a:nth-child(3):hover {
+  color: #2dd033;
+  /* Earth hover green */
+}
+
+/* YouTube icon */
+.color2>a:nth-child(4) {
+  color: #ff0000b2;
+  /* YouTube red */
+}
+
+.color2>a:nth-child(4):hover {
+  color: #ff0000;
+  /* YouTube hover red */
 }
