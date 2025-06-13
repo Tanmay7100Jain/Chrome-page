@@ -1268,3 +1268,33 @@ h3.txt-ne {
   color: #ff0000;
   /* YouTube hover red */
 }
+
+.hostinger{
+  height: 35px;
+  width: 20px;
+}
+.bridal{
+ background: green;
+ display: flex;
+ justify-self: center;
+ align-self: center;
+ padding-left: 5px;
+  color: white;
+  font:bold;
+  align-items: center;
+  align-items: center;
+  height: 30px;
+  width: 20px;
+  border-radius: 50%;
+  size: 2xl;
+/*  
+ w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center text-xl */
+}
+.hostingers{
+  display: flex;
+  gap: 8px;
+}
+
+#link{
+  padding-left: 30px;
+}
