@@ -14,4 +14,4 @@ search.addEventListener('keypress', (event) => {
 })
 
 
-// window.onload = function () { document.getElementById("search").focus(); }
+console.log("Tanmay")
